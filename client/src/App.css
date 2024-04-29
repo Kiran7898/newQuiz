@@ -1,0 +1,50 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+
+.continer-main{
+  background-color: #E3FDFD;
+  width: 100%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.nav{
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+  background-color: #4ebec4;
+}.nav-li{
+  background-color: #ffffff;
+  text-decoration: none;
+  color: rgb(46, 46, 46);
+  padding: 3px;
+  border-radius: 20px;
+  width: 5rem;
+  height: 2rem;
+  text-align: center;
+  margin:15px;
+ 
+}
+.nav-li:hover{
+  background-color: #6ee2ef;
+  color: rgb(83, 83, 83);
+  transition: 100ms;
+}
+

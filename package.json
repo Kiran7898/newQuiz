@@ -1,0 +1,30 @@
+{
+  "name": "newquiz",
+  "version": "1.0.0",
+  "description": "quiz web app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "author": "kiran",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.2",
+    "react-circular-progressbar": "^2.1.0",
+    "react-router-dom": "^6.22.3",
+    "web-vitals": "^3.5.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0",
+    "tailwindcss": "^3.4.3"
+  }
+}
